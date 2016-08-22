@@ -20,7 +20,8 @@ spring:
   cloud:
     stream:
       bindings:
-        output: job
+        output: 
+          destination: job
           
       
 zuul:
