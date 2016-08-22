@@ -21,7 +21,7 @@ spring:
     stream:
       bindings:
         output:
-          destination: job
+          destination: "job"
       
 zuul:
   ignored-services: '*'    
