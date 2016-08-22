@@ -17,6 +17,12 @@ spring:
     mongodb:
       uri: mongodb://192.168.99.100:32768/testdb
       
+  cloud
+    stream
+      bindings
+        output
+          destination: job
+      
 zuul:
   ignored-services: '*'    
   routes:
