@@ -16,3 +16,9 @@ spring:
   data:
     mongodb:
       uri: mongodb://192.168.99.100:32768/testdb
+      
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: "job"
