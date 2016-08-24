@@ -22,8 +22,8 @@ spring:
       bindings:
         advertise: 
           destination: job
+          content-type=application/json
           
-      
 zuul:
   ignored-services: '*'    
   routes:
