@@ -22,7 +22,7 @@ spring:
       bindings:
         advertise: 
           destination: advertise
-          content-type: application/json
+          
           
 zuul:
   ignored-services: '*'    
