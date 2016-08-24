@@ -21,5 +21,5 @@ spring:
     stream:
       bindings:
         input:
-          destination: job
+          destination: advertise
           content-type: application/json
