@@ -30,3 +30,10 @@ zuul:
     advertise: 
       path: /job/**
       service-id: advertise-service      
+
+feign:
+  compression:
+    request: 
+      enabled: true
+    response:
+      enabled: true
