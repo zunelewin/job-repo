@@ -22,4 +22,5 @@ spring:
       bindings:
         input:
           destination: advertise
+          content-type: application/json
           
