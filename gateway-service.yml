@@ -22,6 +22,7 @@ spring:
       bindings:
         advertise: 
           destination: advertise
+          content-type: application/*+avro
         subscribe:
           destination: subscribe
           
